@@ -48,7 +48,7 @@ header{
 }
 
 .cabeçalho-link a:hover{
-    color:  #2ecc71;
+    color:  #DC143C;
     transition: 0.3s all;
 }
 
@@ -56,8 +56,8 @@ header{
     height: 40px;
     width: 40px;
     background: transparent;
-    border: 1px solid #2ecc71;
-    color: #2ecc71;
+    border: 1px solid #DC143C;
+    color: #DC143C;
     border-radius: 50%;
     display: inline-flex;
     align-items: center;
@@ -68,9 +68,9 @@ header{
 
 
 button{
-    color: #2ecc71;
+    color: #DC143C;
     background: transparent;
-    border:solid 1px #2ecc71;
+    border:solid 1px #DC143C;
     padding: 5px;
     border-radius: 15px;
     font-size: 12px;
@@ -79,18 +79,18 @@ button{
 }
 
 button:hover{
-    background-color: #2ecc71;
+    background-color: ##DC143C;
     color: #fff;
     transition: 0.5s;
 }
 
 .container-text{
-    padding: 150px 0 0 130px;
+    padding: 220px 0 0 340px;
 }
 
 .text h3{
     color: #fff;
-    font-size: 15px;
+    font-size: 30px;
 }
 
 .text h1{
@@ -99,14 +99,17 @@ button:hover{
 }
 
 .text span{
-    color: #2ecc71; 
+    border: 5px solid #DC143C;
+    border: 1px solid #DC143C;
+    color: #DC143C;
+    border-radius: 50%; 
 }
 
 .text p{
     color: #fff;
     font-weight: 500;
     margin-top: 10px;
-    font-size: 10px;
+    font-size: 15px;
 }
 
 .redes-social{
@@ -114,7 +117,7 @@ button:hover{
 }
 
 .redes-social a{
-    color: #2ecc71;
+    color: #DC143C;
     padding: 10px;
     margin-top: 5px;
 }

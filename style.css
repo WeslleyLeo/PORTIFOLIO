@@ -31,8 +31,6 @@ header{
     align-items: center;
     text-align: center;
     padding-top: 1rem;
-   
-    
 }
 
 .cabeçalho-link{
@@ -79,13 +77,14 @@ button{
 }
 
 button:hover{
-    background-color: ##DC143C;
+    background-color: #DC143C;
     color: #fff;
     transition: 0.5s;
 }
 
 .container-text{
-    padding: 220px 0 0 340px;
+    display: flex;
+    padding: 220px 0 0 110px;
 }
 
 .text h3{
@@ -126,9 +125,10 @@ button:hover{
     margin-top: 15px;
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:768px){
     .cabeçalho-link {
-        display: none;
+        width: 100%;
+        display: flex;
     }
     
 }
